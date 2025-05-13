@@ -1,0 +1,19 @@
+export default function Header() {
+  return (
+    <header className="bg-black text-white flex flex-col items-center p-4 min-h-screen w-64 fixed left-0 top-0">
+      <div className="text-2xl font-bold mb-6 text-center">StartBizHub</div>
+      <nav className="flex flex-col gap-4 text-lg w-full items-center">
+        <a href="#home" className="hover:text-gray-300">Home</a>
+        <a href="#get-started" className="hover:text-gray-300">Get Started</a>
+        <a href="#order-website" className="hover:text-gray-300">Order Website</a>
+        <a href="#about-us" className="hover:text-gray-300">About Us</a>
+        <a href="#potential-income" className="hover:text-gray-300">Potential Income</a>
+        <a href="#health-fitness" className="hover:text-gray-300">Health & Fitness</a>
+        <a href="#marketing" className="hover:text-gray-300">Marketing</a>
+      </nav>
+      <button className="mt-10 bg-white text-black px-4 py-2 rounded hover:bg-gray-300">
+        StartBizHub
+      </button>
+    </header>
+  );
+}
